@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_00j8IFyvEeuuuKuWsgSo-Q" name="ActivityDiagram1">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_03mpEFyvEeuuuKuWsgSo-Q">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Activity" xmi:id="_011ugFyvEeuuuKuWsgSo-Q" name="Activity1" node="_5s1dMFywEeuuuKuWsgSo-Q _R8Oj8FyyEeuuuKuWsgSo-Q _DZodMFyyEeuuuKuWsgSo-Q _DKLE4FyyEeuuuKuWsgSo-Q _C6LhEFyyEeuuuKuWsgSo-Q _CklEgFyyEeuuuKuWsgSo-Q __HMswFyzEeuuuKuWsgSo-Q _dMfP4Fy1EeuuuKuWsgSo-Q _vN3KoFy1EeuuuKuWsgSo-Q _txYSoFzCEeuuuKuWsgSo-Q _4XG7MFzCEeuuuKuWsgSo-Q _9sUsYFzCEeuuuKuWsgSo-Q _Dii44FzDEeuuuKuWsgSo-Q _JGPyAFzDEeuuuKuWsgSo-Q _occ_4FzDEeuuuKuWsgSo-Q _4XOagFzDEeuuuKuWsgSo-Q _BiTqAFzEEeuuuKuWsgSo-Q _J3XQcFzEEeuuuKuWsgSo-Q">
+    <edge xmi:type="uml:ControlFlow" xmi:id="_DQtf0Fy0EeuuuKuWsgSo-Q" target="_5s1dMFywEeuuuKuWsgSo-Q" source="__HMswFyzEeuuuKuWsgSo-Q"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_kzOXwFy1EeuuuKuWsgSo-Q" target="_dMfP4Fy1EeuuuKuWsgSo-Q" source="_5s1dMFywEeuuuKuWsgSo-Q"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_mc0LwFy1EeuuuKuWsgSo-Q" target="_CklEgFyyEeuuuKuWsgSo-Q" source="_dMfP4Fy1EeuuuKuWsgSo-Q"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_rQPegFy1EeuuuKuWsgSo-Q" target="_C6LhEFyyEeuuuKuWsgSo-Q" source="_dMfP4Fy1EeuuuKuWsgSo-Q"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_sdQEMFy1EeuuuKuWsgSo-Q" target="_DKLE4FyyEeuuuKuWsgSo-Q" source="_dMfP4Fy1EeuuuKuWsgSo-Q"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_tMiMEFy1EeuuuKuWsgSo-Q" target="_DZodMFyyEeuuuKuWsgSo-Q" source="_dMfP4Fy1EeuuuKuWsgSo-Q"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_zbu5QFy1EeuuuKuWsgSo-Q" target="_vN3KoFy1EeuuuKuWsgSo-Q" source="_CklEgFyyEeuuuKuWsgSo-Q"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_4jBjMFy1EeuuuKuWsgSo-Q" target="_vN3KoFy1EeuuuKuWsgSo-Q" source="_DKLE4FyyEeuuuKuWsgSo-Q"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_9F9i4Fy1EeuuuKuWsgSo-Q" target="_vN3KoFy1EeuuuKuWsgSo-Q" source="_C6LhEFyyEeuuuKuWsgSo-Q"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_BBXBcFy2EeuuuKuWsgSo-Q" target="_vN3KoFy1EeuuuKuWsgSo-Q" source="_DZodMFyyEeuuuKuWsgSo-Q"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_CkuRoFy2EeuuuKuWsgSo-Q" target="_R8Oj8FyyEeuuuKuWsgSo-Q" source="_vN3KoFy1EeuuuKuWsgSo-Q"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_PtZFIFzDEeuuuKuWsgSo-Q" name="Logged In" target="_4XG7MFzCEeuuuKuWsgSo-Q" source="_txYSoFzCEeuuuKuWsgSo-Q"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_X5FUMFzDEeuuuKuWsgSo-Q" target="_9sUsYFzCEeuuuKuWsgSo-Q" source="_4XG7MFzCEeuuuKuWsgSo-Q"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_ZLZQoFzDEeuuuKuWsgSo-Q" name="Not Logged In" target="_JGPyAFzDEeuuuKuWsgSo-Q" source="_4XG7MFzCEeuuuKuWsgSo-Q"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_ckPbwFzDEeuuuKuWsgSo-Q" name="Already Registered" target="_Dii44FzDEeuuuKuWsgSo-Q" source="_JGPyAFzDEeuuuKuWsgSo-Q"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_j4sg0FzDEeuuuKuWsgSo-Q" target="_9sUsYFzCEeuuuKuWsgSo-Q" source="_Dii44FzDEeuuuKuWsgSo-Q"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_tJ8pwFzDEeuuuKuWsgSo-Q" name="Not Registered" target="_occ_4FzDEeuuuKuWsgSo-Q" source="_JGPyAFzDEeuuuKuWsgSo-Q"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_xG19IFzDEeuuuKuWsgSo-Q" target="_Dii44FzDEeuuuKuWsgSo-Q" source="_occ_4FzDEeuuuKuWsgSo-Q"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_-14gAFzDEeuuuKuWsgSo-Q" target="_4XOagFzDEeuuuKuWsgSo-Q" source="_9sUsYFzCEeuuuKuWsgSo-Q"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_DxihsFzEEeuuuKuWsgSo-Q" target="_BiTqAFzEEeuuuKuWsgSo-Q" source="_4XOagFzDEeuuuKuWsgSo-Q"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_R7gtEFzEEeuuuKuWsgSo-Q" target="_J3XQcFzEEeuuuKuWsgSo-Q" source="_R8Oj8FyyEeuuuKuWsgSo-Q"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_W-cbcFzEEeuuuKuWsgSo-Q" name="isInterested" target="_txYSoFzCEeuuuKuWsgSo-Q" source="_J3XQcFzEEeuuuKuWsgSo-Q"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_5s1dMFywEeuuuKuWsgSo-Q" name="Search for Property" incoming="_DQtf0Fy0EeuuuKuWsgSo-Q" outgoing="_kzOXwFy1EeuuuKuWsgSo-Q"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_CklEgFyyEeuuuKuWsgSo-Q" name="Search Location" incoming="_mc0LwFy1EeuuuKuWsgSo-Q" outgoing="_zbu5QFy1EeuuuKuWsgSo-Q"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_C6LhEFyyEeuuuKuWsgSo-Q" name="Search Area" incoming="_rQPegFy1EeuuuKuWsgSo-Q" outgoing="_9F9i4Fy1EeuuuKuWsgSo-Q"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_DKLE4FyyEeuuuKuWsgSo-Q" name="Search Price" incoming="_sdQEMFy1EeuuuKuWsgSo-Q" outgoing="_4jBjMFy1EeuuuKuWsgSo-Q"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_DZodMFyyEeuuuKuWsgSo-Q" name="Search Number of Bed Rooms" incoming="_tMiMEFy1EeuuuKuWsgSo-Q" outgoing="_BBXBcFy2EeuuuKuWsgSo-Q"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_R8Oj8FyyEeuuuKuWsgSo-Q" name="Display Properties a/c to Search Requirements" incoming="_CkuRoFy2EeuuuKuWsgSo-Q" outgoing="_R7gtEFzEEeuuuKuWsgSo-Q"/>
+    <node xmi:type="uml:InitialNode" xmi:id="__HMswFyzEeuuuKuWsgSo-Q" name="" outgoing="_DQtf0Fy0EeuuuKuWsgSo-Q"/>
+    <node xmi:type="uml:ForkNode" xmi:id="_dMfP4Fy1EeuuuKuWsgSo-Q" incoming="_kzOXwFy1EeuuuKuWsgSo-Q" outgoing="_mc0LwFy1EeuuuKuWsgSo-Q _rQPegFy1EeuuuKuWsgSo-Q _sdQEMFy1EeuuuKuWsgSo-Q _tMiMEFy1EeuuuKuWsgSo-Q"/>
+    <node xmi:type="uml:JoinNode" xmi:id="_vN3KoFy1EeuuuKuWsgSo-Q" incoming="_zbu5QFy1EeuuuKuWsgSo-Q _4jBjMFy1EeuuuKuWsgSo-Q _9F9i4Fy1EeuuuKuWsgSo-Q _BBXBcFy2EeuuuKuWsgSo-Q" outgoing="_CkuRoFy2EeuuuKuWsgSo-Q"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_txYSoFzCEeuuuKuWsgSo-Q" name="Select Property" incoming="_W-cbcFzEEeuuuKuWsgSo-Q" outgoing="_PtZFIFzDEeuuuKuWsgSo-Q"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_4XG7MFzCEeuuuKuWsgSo-Q" incoming="_PtZFIFzDEeuuuKuWsgSo-Q" outgoing="_X5FUMFzDEeuuuKuWsgSo-Q _ZLZQoFzDEeuuuKuWsgSo-Q"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_9sUsYFzCEeuuuKuWsgSo-Q" name="Book Property" incoming="_X5FUMFzDEeuuuKuWsgSo-Q _j4sg0FzDEeuuuKuWsgSo-Q" outgoing="_-14gAFzDEeuuuKuWsgSo-Q"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_Dii44FzDEeuuuKuWsgSo-Q" name="Login" incoming="_ckPbwFzDEeuuuKuWsgSo-Q _xG19IFzDEeuuuKuWsgSo-Q" outgoing="_j4sg0FzDEeuuuKuWsgSo-Q"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_JGPyAFzDEeuuuKuWsgSo-Q" incoming="_ZLZQoFzDEeuuuKuWsgSo-Q" outgoing="_ckPbwFzDEeuuuKuWsgSo-Q _tJ8pwFzDEeuuuKuWsgSo-Q"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_occ_4FzDEeuuuKuWsgSo-Q" name="Register" incoming="_tJ8pwFzDEeuuuKuWsgSo-Q" outgoing="_xG19IFzDEeuuuKuWsgSo-Q"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_4XOagFzDEeuuuKuWsgSo-Q" name="Verify Booking" incoming="_-14gAFzDEeuuuKuWsgSo-Q" outgoing="_DxihsFzEEeuuuKuWsgSo-Q"/>
+    <node xmi:type="uml:ActivityFinalNode" xmi:id="_BiTqAFzEEeuuuKuWsgSo-Q" incoming="_DxihsFzEEeuuuKuWsgSo-Q"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_J3XQcFzEEeuuuKuWsgSo-Q" incoming="_R7gtEFzEEeuuuKuWsgSo-Q" outgoing="_W-cbcFzEEeuuuKuWsgSo-Q"/>
+  </packagedElement>
+</uml:Model>

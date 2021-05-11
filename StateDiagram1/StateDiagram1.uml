@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_J29YAF2ZEeuisbtI7vTXGA" name="StateDiagram1">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_J5BNgF2ZEeuisbtI7vTXGA">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:StateMachine" xmi:id="_J382gF2ZEeuisbtI7vTXGA" name="StateMachine1">
+    <region xmi:type="uml:Region" xmi:id="_J4dM0F2ZEeuisbtI7vTXGA" name="ve">
+      <transition xmi:type="uml:Transition" xmi:id="_oILzcF2cEeuisbtI7vTXGA" source="_uP2nMF2aEeuisbtI7vTXGA" target="_HTSPcF2bEeuisbtI7vTXGA"/>
+      <transition xmi:type="uml:Transition" xmi:id="_1mJ0cF2cEeuisbtI7vTXGA" name="Login" source="_HTSPcF2bEeuisbtI7vTXGA" target="_JGNloF2bEeuisbtI7vTXGA"/>
+      <transition xmi:type="uml:Transition" xmi:id="_zy__UF2dEeuisbtI7vTXGA" source="_JGNloF2bEeuisbtI7vTXGA" target="_Idk4UF2bEeuisbtI7vTXGA"/>
+      <transition xmi:type="uml:Transition" xmi:id="_3HcLkF2dEeuisbtI7vTXGA" source="_Idk4UF2bEeuisbtI7vTXGA" target="_peDkwF2dEeuisbtI7vTXGA"/>
+      <transition xmi:type="uml:Transition" xmi:id="_6uB3wF2dEeuisbtI7vTXGA" source="_JGNloF2bEeuisbtI7vTXGA" target="_56diQF2cEeuisbtI7vTXGA"/>
+      <transition xmi:type="uml:Transition" xmi:id="_wKTk4F2eEeuisbtI7vTXGA" name="verify seller's information" source="_56diQF2cEeuisbtI7vTXGA" target="_HnGjUF2bEeuisbtI7vTXGA"/>
+      <transition xmi:type="uml:Transition" xmi:id="_xVio8F2eEeuisbtI7vTXGA" name="verify property booking" source="_56diQF2cEeuisbtI7vTXGA" target="_IMcFAF2bEeuisbtI7vTXGA"/>
+      <transition xmi:type="uml:Transition" xmi:id="_zdkFYF2eEeuisbtI7vTXGA" name="verify property listing" source="_56diQF2cEeuisbtI7vTXGA" target="_H6vRAF2bEeuisbtI7vTXGA"/>
+      <transition xmi:type="uml:Transition" xmi:id="_AE1ScF2gEeuisbtI7vTXGA" name="verify through cnic and property number" source="_H6vRAF2bEeuisbtI7vTXGA" target="_9Uw-kF2fEeuisbtI7vTXGA"/>
+      <transition xmi:type="uml:Transition" xmi:id="_RrvewF2gEeuisbtI7vTXGA" name="valid" source="_9Uw-kF2fEeuisbtI7vTXGA" target="_HSvDkF2gEeuisbtI7vTXGA"/>
+      <transition xmi:type="uml:Transition" xmi:id="_T4jUkF2gEeuisbtI7vTXGA" name="invalid" source="_9Uw-kF2fEeuisbtI7vTXGA" target="_IJCZcF2gEeuisbtI7vTXGA"/>
+      <transition xmi:type="uml:Transition" xmi:id="_shARAF2gEeuisbtI7vTXGA" name="verify seller" source="_HnGjUF2bEeuisbtI7vTXGA" target="_f0hXUF2gEeuisbtI7vTXGA"/>
+      <transition xmi:type="uml:Transition" xmi:id="_wbXNwF2gEeuisbtI7vTXGA" name="valid" source="_f0hXUF2gEeuisbtI7vTXGA" target="_k25sEF2gEeuisbtI7vTXGA"/>
+      <transition xmi:type="uml:Transition" xmi:id="_yaMR8F2gEeuisbtI7vTXGA" name="invalid" source="_f0hXUF2gEeuisbtI7vTXGA" target="_m97C8F2gEeuisbtI7vTXGA"/>
+      <transition xmi:type="uml:Transition" xmi:id="_GdY6gF2hEeuisbtI7vTXGA" name="Confirmation Call" source="_IMcFAF2bEeuisbtI7vTXGA" target="_n8Bp8F2gEeuisbtI7vTXGA"/>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_uP2nMF2aEeuisbtI7vTXGA"/>
+      <subvertex xmi:type="uml:State" xmi:id="_HTSPcF2bEeuisbtI7vTXGA" name="Admin Login"/>
+      <subvertex xmi:type="uml:State" xmi:id="_HnGjUF2bEeuisbtI7vTXGA" name="Seller Information"/>
+      <subvertex xmi:type="uml:State" xmi:id="_H6vRAF2bEeuisbtI7vTXGA" name="Property Listing"/>
+      <subvertex xmi:type="uml:State" xmi:id="_IMcFAF2bEeuisbtI7vTXGA" name="Property Booking"/>
+      <subvertex xmi:type="uml:State" xmi:id="_Idk4UF2bEeuisbtI7vTXGA" name="Log Out"/>
+      <subvertex xmi:type="uml:State" xmi:id="_JGNloF2bEeuisbtI7vTXGA" name="Admin Dashboard"/>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_56diQF2cEeuisbtI7vTXGA" kind="choice"/>
+      <subvertex xmi:type="uml:FinalState" xmi:id="_peDkwF2dEeuisbtI7vTXGA"/>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_9Uw-kF2fEeuisbtI7vTXGA" kind="choice"/>
+      <subvertex xmi:type="uml:State" xmi:id="_HSvDkF2gEeuisbtI7vTXGA" name="List the Property"/>
+      <subvertex xmi:type="uml:State" xmi:id="_IJCZcF2gEeuisbtI7vTXGA" name="Delete the Property"/>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_f0hXUF2gEeuisbtI7vTXGA" kind="choice"/>
+      <subvertex xmi:type="uml:State" xmi:id="_k25sEF2gEeuisbtI7vTXGA" name="Register Seller"/>
+      <subvertex xmi:type="uml:State" xmi:id="_m97C8F2gEeuisbtI7vTXGA" name="Delete Seller"/>
+      <subvertex xmi:type="uml:State" xmi:id="_n8Bp8F2gEeuisbtI7vTXGA" name="Payment "/>
+    </region>
+  </packagedElement>
+  <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_gCoBkF2cEeuisbtI7vTXGA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_gCoBkV2cEeuisbtI7vTXGA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>
+    </eAnnotations>
+    <appliedProfile xmi:type="uml:Profile" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#ActionLanguage"/>
+  </profileApplication>
+</uml:Model>

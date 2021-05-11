@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_nN5QIFzFEeuuuKuWsgSo-Q" name="ActivityDiagram_2">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_nPHYIFzFEeuuuKuWsgSo-Q">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Activity" xmi:id="_nOjXcFzFEeuuuKuWsgSo-Q" name="Activity2" node="_7fppYFzWEeuuuKuWsgSo-Q _9t8s8FzWEeuuuKuWsgSo-Q _BzPuYFzXEeuuuKuWsgSo-Q _FKNqMFzXEeuuuKuWsgSo-Q _afuPMFzXEeuuuKuWsgSo-Q _oaOwUFzZEeuuuKuWsgSo-Q _xASAIFzZEeuuuKuWsgSo-Q _n3ngkFzbEeuuuKuWsgSo-Q _1h44MFzbEeuuuKuWsgSo-Q _5EomMFzbEeuuuKuWsgSo-Q _h33vMFzcEeuuuKuWsgSo-Q _qmDnUFzcEeuuuKuWsgSo-Q _s8JU8FzcEeuuuKuWsgSo-Q _oQIcUFzdEeuuuKuWsgSo-Q _EZVGMFzfEeuuuKuWsgSo-Q _O-ixYFzfEeuuuKuWsgSo-Q _TerUsFzfEeuuuKuWsgSo-Q _T3F0sFzfEeuuuKuWsgSo-Q _V12yAFzgEeuuuKuWsgSo-Q _dIHesFzgEeuuuKuWsgSo-Q _dbJIYFzgEeuuuKuWsgSo-Q _du38sFzgEeuuuKuWsgSo-Q _eCsQkFzgEeuuuKuWsgSo-Q _nP1gIFzhEeuuuKuWsgSo-Q _2dxC4FzhEeuuuKuWsgSo-Q">
+    <edge xmi:type="uml:ControlFlow" xmi:id="_CVTnsFzZEeuuuKuWsgSo-Q" target="_BzPuYFzXEeuuuKuWsgSo-Q" source="_9t8s8FzWEeuuuKuWsgSo-Q"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_Dh_dQFzZEeuuuKuWsgSo-Q" target="_FKNqMFzXEeuuuKuWsgSo-Q" source="_BzPuYFzXEeuuuKuWsgSo-Q"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_FOKEIFzZEeuuuKuWsgSo-Q" target="_afuPMFzXEeuuuKuWsgSo-Q" source="_FKNqMFzXEeuuuKuWsgSo-Q"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_MJ6DYFzbEeuuuKuWsgSo-Q" name="Verify CNIC and Password" target="_xASAIFzZEeuuuKuWsgSo-Q" source="_afuPMFzXEeuuuKuWsgSo-Q"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_iGE_wFzbEeuuuKuWsgSo-Q" target="_afuPMFzXEeuuuKuWsgSo-Q" source="_oaOwUFzZEeuuuKuWsgSo-Q"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_lk8TUFzbEeuuuKuWsgSo-Q" name="invalid" target="_oaOwUFzZEeuuuKuWsgSo-Q" source="_xASAIFzZEeuuuKuWsgSo-Q"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_waqfsFzbEeuuuKuWsgSo-Q" name="valid" target="_n3ngkFzbEeuuuKuWsgSo-Q" source="_xASAIFzZEeuuuKuWsgSo-Q"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_6vaF8FzbEeuuuKuWsgSo-Q" target="_1h44MFzbEeuuuKuWsgSo-Q" source="_n3ngkFzbEeuuuKuWsgSo-Q"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_79qo0FzbEeuuuKuWsgSo-Q" target="_5EomMFzbEeuuuKuWsgSo-Q" source="_1h44MFzbEeuuuKuWsgSo-Q"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_oNnwUFzcEeuuuKuWsgSo-Q" target="_h33vMFzcEeuuuKuWsgSo-Q" source="_n3ngkFzbEeuuuKuWsgSo-Q"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_2cvsAFzdEeuuuKuWsgSo-Q" target="_qmDnUFzcEeuuuKuWsgSo-Q" source="_h33vMFzcEeuuuKuWsgSo-Q"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_3ZDjQFzdEeuuuKuWsgSo-Q" target="_s8JU8FzcEeuuuKuWsgSo-Q" source="_h33vMFzcEeuuuKuWsgSo-Q"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_4u8YIFzdEeuuuKuWsgSo-Q" target="_oQIcUFzdEeuuuKuWsgSo-Q" source="_h33vMFzcEeuuuKuWsgSo-Q"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_K4-qMFzfEeuuuKuWsgSo-Q" target="_EZVGMFzfEeuuuKuWsgSo-Q" source="_s8JU8FzcEeuuuKuWsgSo-Q"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_6RSpwFzfEeuuuKuWsgSo-Q" target="_O-ixYFzfEeuuuKuWsgSo-Q" source="_EZVGMFzfEeuuuKuWsgSo-Q"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_8bTDMFzfEeuuuKuWsgSo-Q" name="Valid" target="_TerUsFzfEeuuuKuWsgSo-Q" source="_O-ixYFzfEeuuuKuWsgSo-Q"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_ISghwFzgEeuuuKuWsgSo-Q" name="Invalid" target="_T3F0sFzfEeuuuKuWsgSo-Q" source="_O-ixYFzfEeuuuKuWsgSo-Q"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_SmWwIFzgEeuuuKuWsgSo-Q" target="_9t8s8FzWEeuuuKuWsgSo-Q" source="_7fppYFzWEeuuuKuWsgSo-Q"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_2VZmgFzgEeuuuKuWsgSo-Q" name="verify CNIC and verify through email address" target="_V12yAFzgEeuuuKuWsgSo-Q" source="_dIHesFzgEeuuuKuWsgSo-Q"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_AtpMsFzhEeuuuKuWsgSo-Q" name="valid" target="_dbJIYFzgEeuuuKuWsgSo-Q" source="_V12yAFzgEeuuuKuWsgSo-Q"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_B329EFzhEeuuuKuWsgSo-Q" name="non valid" target="_du38sFzgEeuuuKuWsgSo-Q" source="_V12yAFzgEeuuuKuWsgSo-Q"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_FfM3MFzhEeuuuKuWsgSo-Q" target="_dIHesFzgEeuuuKuWsgSo-Q" source="_oQIcUFzdEeuuuKuWsgSo-Q"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_zBGuwFzhEeuuuKuWsgSo-Q" target="_nP1gIFzhEeuuuKuWsgSo-Q" source="_qmDnUFzcEeuuuKuWsgSo-Q"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_AYYR4FziEeuuuKuWsgSo-Q" target="_2dxC4FzhEeuuuKuWsgSo-Q" source="_nP1gIFzhEeuuuKuWsgSo-Q"/>
+    <node xmi:type="uml:InitialNode" xmi:id="_7fppYFzWEeuuuKuWsgSo-Q" outgoing="_SmWwIFzgEeuuuKuWsgSo-Q"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_9t8s8FzWEeuuuKuWsgSo-Q" name="GharKhareedo.pk Page" incoming="_SmWwIFzgEeuuuKuWsgSo-Q" outgoing="_CVTnsFzZEeuuuKuWsgSo-Q"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_BzPuYFzXEeuuuKuWsgSo-Q" name="Login Page" incoming="_CVTnsFzZEeuuuKuWsgSo-Q" outgoing="_Dh_dQFzZEeuuuKuWsgSo-Q"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_FKNqMFzXEeuuuKuWsgSo-Q" name="Admin" incoming="_Dh_dQFzZEeuuuKuWsgSo-Q" outgoing="_FOKEIFzZEeuuuKuWsgSo-Q"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_afuPMFzXEeuuuKuWsgSo-Q" name="Login " incoming="_FOKEIFzZEeuuuKuWsgSo-Q _iGE_wFzbEeuuuKuWsgSo-Q" outgoing="_MJ6DYFzbEeuuuKuWsgSo-Q"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_oaOwUFzZEeuuuKuWsgSo-Q" name="Invalid CNIC Password" incoming="_lk8TUFzbEeuuuKuWsgSo-Q" outgoing="_iGE_wFzbEeuuuKuWsgSo-Q"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_xASAIFzZEeuuuKuWsgSo-Q" incoming="_MJ6DYFzbEeuuuKuWsgSo-Q" outgoing="_lk8TUFzbEeuuuKuWsgSo-Q _waqfsFzbEeuuuKuWsgSo-Q"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_n3ngkFzbEeuuuKuWsgSo-Q" name="Admin Dashboard" incoming="_waqfsFzbEeuuuKuWsgSo-Q" outgoing="_6vaF8FzbEeuuuKuWsgSo-Q _oNnwUFzcEeuuuKuWsgSo-Q"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_1h44MFzbEeuuuKuWsgSo-Q" name="Log out" incoming="_6vaF8FzbEeuuuKuWsgSo-Q" outgoing="_79qo0FzbEeuuuKuWsgSo-Q"/>
+    <node xmi:type="uml:ActivityFinalNode" xmi:id="_5EomMFzbEeuuuKuWsgSo-Q" name="ActivityFinalNode17" incoming="_79qo0FzbEeuuuKuWsgSo-Q"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_h33vMFzcEeuuuKuWsgSo-Q" incoming="_oNnwUFzcEeuuuKuWsgSo-Q" outgoing="_2cvsAFzdEeuuuKuWsgSo-Q _3ZDjQFzdEeuuuKuWsgSo-Q _4u8YIFzdEeuuuKuWsgSo-Q"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_qmDnUFzcEeuuuKuWsgSo-Q" name="Verify Property Bookings" incoming="_2cvsAFzdEeuuuKuWsgSo-Q" outgoing="_zBGuwFzhEeuuuKuWsgSo-Q"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_s8JU8FzcEeuuuKuWsgSo-Q" name="Verify New Property Listings" incoming="_3ZDjQFzdEeuuuKuWsgSo-Q" outgoing="_K4-qMFzfEeuuuKuWsgSo-Q"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_oQIcUFzdEeuuuKuWsgSo-Q" name="Verify Seller Information" incoming="_4u8YIFzdEeuuuKuWsgSo-Q" outgoing="_FfM3MFzhEeuuuKuWsgSo-Q"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_EZVGMFzfEeuuuKuWsgSo-Q" name="Verify through CNIC and Property Number" incoming="_K4-qMFzfEeuuuKuWsgSo-Q" outgoing="_6RSpwFzfEeuuuKuWsgSo-Q"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_O-ixYFzfEeuuuKuWsgSo-Q" incoming="_6RSpwFzfEeuuuKuWsgSo-Q" outgoing="_8bTDMFzfEeuuuKuWsgSo-Q _ISghwFzgEeuuuKuWsgSo-Q"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_TerUsFzfEeuuuKuWsgSo-Q" name="List the Property" incoming="_8bTDMFzfEeuuuKuWsgSo-Q"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_T3F0sFzfEeuuuKuWsgSo-Q" name="Delete the Property" incoming="_ISghwFzgEeuuuKuWsgSo-Q"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_V12yAFzgEeuuuKuWsgSo-Q" incoming="_2VZmgFzgEeuuuKuWsgSo-Q" outgoing="_AtpMsFzhEeuuuKuWsgSo-Q _B329EFzhEeuuuKuWsgSo-Q"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_dIHesFzgEeuuuKuWsgSo-Q" name="Verify CNIC and Email" incoming="_FfM3MFzhEeuuuKuWsgSo-Q" outgoing="_2VZmgFzgEeuuuKuWsgSo-Q"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_dbJIYFzgEeuuuKuWsgSo-Q" name="Register Seller" incoming="_AtpMsFzhEeuuuKuWsgSo-Q"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_du38sFzgEeuuuKuWsgSo-Q" name="Delete Seller" incoming="_B329EFzhEeuuuKuWsgSo-Q"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_eCsQkFzgEeuuuKuWsgSo-Q" name="OpaqueAction41"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_nP1gIFzhEeuuuKuWsgSo-Q" name="Confirmation Call" incoming="_zBGuwFzhEeuuuKuWsgSo-Q" outgoing="_AYYR4FziEeuuuKuWsgSo-Q"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_2dxC4FzhEeuuuKuWsgSo-Q" name="Payment For Booking" incoming="_AYYR4FziEeuuuKuWsgSo-Q"/>
+  </packagedElement>
+</uml:Model>

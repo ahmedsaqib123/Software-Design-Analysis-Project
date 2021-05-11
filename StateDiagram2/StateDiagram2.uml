@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_11QOIF2hEeuisbtI7vTXGA" name="StateDiagram2">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_116VcF2hEeuisbtI7vTXGA">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:StateMachine" xmi:id="_11gFwF2hEeuisbtI7vTXGA" name="StateMachine1">
+    <region xmi:type="uml:Region" xmi:id="_11gs0F2hEeuisbtI7vTXGA">
+      <transition xmi:type="uml:Transition" xmi:id="_415pwF2jEeuisbtI7vTXGA" source="_nSOXoF2jEeuisbtI7vTXGA" target="_tWx7EF2jEeuisbtI7vTXGA"/>
+      <transition xmi:type="uml:Transition" xmi:id="_XjD6oF2kEeuisbtI7vTXGA" name="Verify Property " source="_t4uxkF2jEeuisbtI7vTXGA" target="_P-yQ4F2kEeuisbtI7vTXGA"/>
+      <transition xmi:type="uml:Transition" xmi:id="_cnWT4F2kEeuisbtI7vTXGA" name="valid" source="_P-yQ4F2kEeuisbtI7vTXGA" target="_ueVZAF2jEeuisbtI7vTXGA"/>
+      <transition xmi:type="uml:Transition" xmi:id="_d3dQ4F2kEeuisbtI7vTXGA" name="not valid" source="_P-yQ4F2kEeuisbtI7vTXGA" target="_u8fUoF2jEeuisbtI7vTXGA"/>
+      <transition xmi:type="uml:Transition" xmi:id="_jrCZEF2kEeuisbtI7vTXGA" name="successful login" source="_tWx7EF2jEeuisbtI7vTXGA" target="_toFtgF2jEeuisbtI7vTXGA"/>
+      <transition xmi:type="uml:Transition" xmi:id="_HRQDkF2lEeuisbtI7vTXGA" name="PropertyDetails" source="_toFtgF2jEeuisbtI7vTXGA" target="_utCjYF2jEeuisbtI7vTXGA"/>
+      <transition xmi:type="uml:Transition" xmi:id="_TUUz4F2lEeuisbtI7vTXGA" name="Verification" source="_utCjYF2jEeuisbtI7vTXGA" target="_t4uxkF2jEeuisbtI7vTXGA"/>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_nSOXoF2jEeuisbtI7vTXGA" name=""/>
+      <subvertex xmi:type="uml:State" xmi:id="_tWx7EF2jEeuisbtI7vTXGA" name="Seller Login"/>
+      <subvertex xmi:type="uml:State" xmi:id="_toFtgF2jEeuisbtI7vTXGA" name="Add a Property"/>
+      <subvertex xmi:type="uml:State" xmi:id="_t4uxkF2jEeuisbtI7vTXGA" name="Admin"/>
+      <subvertex xmi:type="uml:State" xmi:id="_ueVZAF2jEeuisbtI7vTXGA" name="Post the Listing"/>
+      <subvertex xmi:type="uml:State" xmi:id="_utCjYF2jEeuisbtI7vTXGA" name="Property Listing"/>
+      <subvertex xmi:type="uml:State" xmi:id="_u8fUoF2jEeuisbtI7vTXGA" name="Decline the listing"/>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_P-yQ4F2kEeuisbtI7vTXGA" kind="choice"/>
+    </region>
+  </packagedElement>
+</uml:Model>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_Rp_a0Fr5EeuKc8oV1iZMCA" name="DeploymentDiagramReal">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_RtaiQFr5EeuKc8oV1iZMCA">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Node" xmi:id="__7bR4Fr5EeuKc8oV1iZMCA" name="Database">
+    <nestedClassifier xmi:type="uml:Artifact" xmi:id="_QpWnwFr6EeuKc8oV1iZMCA" name="GharKharedo.pk Database"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Node" xmi:id="_eB7LYFr6EeuKc8oV1iZMCA" name="Server">
+    <nestedClassifier xmi:type="uml:Artifact" xmi:id="_iAOM8Fr6EeuKc8oV1iZMCA" name="GharKhareedo.pk"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Node" xmi:id="_w8yS4Fr6EeuKc8oV1iZMCA" name="Client">
+    <nestedNode xmi:type="uml:Device" xmi:id="_14QHUFr6EeuKc8oV1iZMCA" name="Customer"/>
+    <nestedNode xmi:type="uml:Device" xmi:id="_6s0CgFr6EeuKc8oV1iZMCA" name="Admin"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:CommunicationPath" xmi:id="_Upow4Fr7EeuKc8oV1iZMCA" name="ODBC" memberEnd="_Upp_AVr7EeuKc8oV1iZMCA _UpqmEFr7EeuKc8oV1iZMCA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_UppX8Fr7EeuKc8oV1iZMCA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Upp_AFr7EeuKc8oV1iZMCA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Upp_AVr7EeuKc8oV1iZMCA" name="server" type="_eB7LYFr6EeuKc8oV1iZMCA" association="_Upow4Fr7EeuKc8oV1iZMCA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_UpqmEFr7EeuKc8oV1iZMCA" name="database" type="__7bR4Fr5EeuKc8oV1iZMCA" association="_Upow4Fr7EeuKc8oV1iZMCA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:CommunicationPath" xmi:id="_YVIyQFr7EeuKc8oV1iZMCA" name="HTTP" memberEnd="_YVIyQ1r7EeuKc8oV1iZMCA _YVJZUFr7EeuKc8oV1iZMCA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_YVIyQVr7EeuKc8oV1iZMCA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_YVIyQlr7EeuKc8oV1iZMCA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_YVIyQ1r7EeuKc8oV1iZMCA" name="client" type="_w8yS4Fr6EeuKc8oV1iZMCA" association="_YVIyQFr7EeuKc8oV1iZMCA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_YVJZUFr7EeuKc8oV1iZMCA" name="server" type="_eB7LYFr6EeuKc8oV1iZMCA" association="_YVIyQFr7EeuKc8oV1iZMCA"/>
+  </packagedElement>
+</uml:Model>

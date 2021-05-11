@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ActionLanguage="http://www.omg.org/spec/ALF/20120827/ActionLanguage-Profile" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.omg.org/spec/ALF/20120827/ActionLanguage-Profile pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ">
+  <uml:Model xmi:id="_aQtuIF1sEeuisbtI7vTXGA" name="CollaborationDiagram1">
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_aRZDkF1sEeuisbtI7vTXGA">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Interaction" xmi:id="_aQx_kF1sEeuisbtI7vTXGA" name="CollaborationDiagram1">
+      <lifeline xmi:type="uml:Lifeline" xmi:id="_cEh1IF1sEeuisbtI7vTXGA" name="Seller" coveredBy="_talFgF1tEeuisbtI7vTXGA _q0HkIF1uEeuisbtI7vTXGA"/>
+      <lifeline xmi:type="uml:Lifeline" xmi:id="_XnSYUF1tEeuisbtI7vTXGA" name="Login" coveredBy="_tamToF1tEeuisbtI7vTXGA _3RLXMF1tEeuisbtI7vTXGA _5-M-IF1tEeuisbtI7vTXGA _5-NlMF1tEeuisbtI7vTXGA _9yHUoF1tEeuisbtI7vTXGA _q0ILMF1uEeuisbtI7vTXGA _u-XsIF1wEeuisbtI7vTXGA"/>
+      <lifeline xmi:type="uml:Lifeline" xmi:id="_b7IzIF1tEeuisbtI7vTXGA" name="Verify Login" coveredBy="_3RL-QF1tEeuisbtI7vTXGA _XN2SsF1vEeuisbtI7vTXGA _UMx48F1wEeuisbtI7vTXGA _u-XFEF1wEeuisbtI7vTXGA"/>
+      <lifeline xmi:type="uml:Lifeline" xmi:id="_gidjkF1tEeuisbtI7vTXGA" name="Database" coveredBy="_XN25wF1vEeuisbtI7vTXGA _UMxR4F1wEeuisbtI7vTXGA"/>
+      <lifeline xmi:type="uml:Lifeline" xmi:id="_h8M9sF1tEeuisbtI7vTXGA" name="Web-Page" coveredBy="_9yH7sF1tEeuisbtI7vTXGA"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_talFgF1tEeuisbtI7vTXGA" name="Message6SendEvent" covered="_cEh1IF1sEeuisbtI7vTXGA"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_tamToF1tEeuisbtI7vTXGA" name="Message6ReceiveEvent" covered="_XnSYUF1tEeuisbtI7vTXGA"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_3RLXMF1tEeuisbtI7vTXGA" name="Message9SendEvent" covered="_XnSYUF1tEeuisbtI7vTXGA" message="_3RKJEF1tEeuisbtI7vTXGA"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_3RL-QF1tEeuisbtI7vTXGA" name="Message9ReceiveEvent" covered="_b7IzIF1tEeuisbtI7vTXGA" message="_3RKJEF1tEeuisbtI7vTXGA"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_5-M-IF1tEeuisbtI7vTXGA" name="Message12SendEvent" covered="_XnSYUF1tEeuisbtI7vTXGA" message="_5-MXEF1tEeuisbtI7vTXGA"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_5-NlMF1tEeuisbtI7vTXGA" name="Message12ReceiveEvent" covered="_XnSYUF1tEeuisbtI7vTXGA" message="_5-MXEF1tEeuisbtI7vTXGA"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_9yHUoF1tEeuisbtI7vTXGA" name="Message18SendEvent" covered="_XnSYUF1tEeuisbtI7vTXGA" message="_9yFfcF1tEeuisbtI7vTXGA"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_9yH7sF1tEeuisbtI7vTXGA" name="Message18ReceiveEvent" covered="_h8M9sF1tEeuisbtI7vTXGA" message="_9yFfcF1tEeuisbtI7vTXGA"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_q0HkIF1uEeuisbtI7vTXGA" name="Message20SendEvent" covered="_cEh1IF1sEeuisbtI7vTXGA" message="_q0Fu8F1uEeuisbtI7vTXGA"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_q0ILMF1uEeuisbtI7vTXGA" name="Message20ReceiveEvent" covered="_XnSYUF1tEeuisbtI7vTXGA" message="_q0Fu8F1uEeuisbtI7vTXGA"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XN2SsF1vEeuisbtI7vTXGA" name="Message20SendEvent" covered="_b7IzIF1tEeuisbtI7vTXGA" message="_XN1EkF1vEeuisbtI7vTXGA"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XN25wF1vEeuisbtI7vTXGA" name="Message20ReceiveEvent" covered="_gidjkF1tEeuisbtI7vTXGA" message="_XN1EkF1vEeuisbtI7vTXGA"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_UMxR4F1wEeuisbtI7vTXGA" name="Message23SendEvent" covered="_gidjkF1tEeuisbtI7vTXGA" message="_UMvcsF1wEeuisbtI7vTXGA"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_UMx48F1wEeuisbtI7vTXGA" name="Message23ReceiveEvent" covered="_b7IzIF1tEeuisbtI7vTXGA" message="_UMvcsF1wEeuisbtI7vTXGA"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_u-XFEF1wEeuisbtI7vTXGA" name="Message26SendEvent" covered="_b7IzIF1tEeuisbtI7vTXGA" message="_u-WeAF1wEeuisbtI7vTXGA"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_u-XsIF1wEeuisbtI7vTXGA" name="Message26ReceiveEvent" covered="_XnSYUF1tEeuisbtI7vTXGA" message="_u-WeAF1wEeuisbtI7vTXGA"/>
+      <message xmi:type="uml:Message" xmi:id="_3RKJEF1tEeuisbtI7vTXGA" name="2.1:Verify" messageSort="asynchCall" receiveEvent="_3RL-QF1tEeuisbtI7vTXGA" sendEvent="_3RLXMF1tEeuisbtI7vTXGA"/>
+      <message xmi:type="uml:Message" xmi:id="_5-MXEF1tEeuisbtI7vTXGA" name="2.3:LoginInvalid" messageSort="asynchCall" receiveEvent="_5-NlMF1tEeuisbtI7vTXGA" sendEvent="_5-M-IF1tEeuisbtI7vTXGA"/>
+      <message xmi:type="uml:Message" xmi:id="_9yFfcF1tEeuisbtI7vTXGA" name="2.2:LoginValid" messageSort="asynchCall" receiveEvent="_9yH7sF1tEeuisbtI7vTXGA" sendEvent="_9yHUoF1tEeuisbtI7vTXGA"/>
+      <message xmi:type="uml:Message" xmi:id="_q0Fu8F1uEeuisbtI7vTXGA" name="1:Login 2: login(Cnic,Password)" messageSort="asynchCall" receiveEvent="_q0ILMF1uEeuisbtI7vTXGA" sendEvent="_q0HkIF1uEeuisbtI7vTXGA"/>
+      <message xmi:type="uml:Message" xmi:id="_XN1EkF1vEeuisbtI7vTXGA" name="2.1.1:VerifyData" messageSort="asynchCall" receiveEvent="_XN25wF1vEeuisbtI7vTXGA" sendEvent="_XN2SsF1vEeuisbtI7vTXGA"/>
+      <message xmi:type="uml:Message" xmi:id="_UMvcsF1wEeuisbtI7vTXGA" name="2.1.2:SendData" messageSort="asynchCall" receiveEvent="_UMx48F1wEeuisbtI7vTXGA" sendEvent="_UMxR4F1wEeuisbtI7vTXGA"/>
+      <message xmi:type="uml:Message" xmi:id="_u-WeAF1wEeuisbtI7vTXGA" name="2.1.2:validorinvalid" messageSort="asynchCall" receiveEvent="_u-XsIF1wEeuisbtI7vTXGA" sendEvent="_u-XFEF1wEeuisbtI7vTXGA"/>
+    </packagedElement>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_c5W5cF1uEeuisbtI7vTXGA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_c5tewF1uEeuisbtI7vTXGA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#ActionLanguage"/>
+    </profileApplication>
+  </uml:Model>
+  <ActionLanguage:TextualRepresentation xmi:id="_c8By8F1uEeuisbtI7vTXGA" language="org.eclipse.papyrus.uml.textedit.message.xtext.UmlMessage"/>
+</xmi:XMI>

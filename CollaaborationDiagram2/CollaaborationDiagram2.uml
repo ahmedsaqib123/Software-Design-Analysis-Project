@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_iWX0YF1xEeuisbtI7vTXGA" name="CollaaborationDiagram2">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_iW-RUF1xEeuisbtI7vTXGA">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Interaction" xmi:id="_iWfJIF1xEeuisbtI7vTXGA" name="CommunicationDiagram2">
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_OKw34F2LEeuisbtI7vTXGA" name="Seller" coveredBy="_ZBRucF2LEeuisbtI7vTXGA"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_RHdSgF2LEeuisbtI7vTXGA" name="Login " coveredBy="_ZBRucV2LEeuisbtI7vTXGA _-SapsF2LEeuisbtI7vTXGA _QzoiIF2MEeuisbtI7vTXGA _HWY5sF2OEeuisbtI7vTXGA _PjJfwF2OEeuisbtI7vTXGA"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_l9tIoF2LEeuisbtI7vTXGA" name="Add Property" coveredBy="_-SbQwF2LEeuisbtI7vTXGA _QzoiIV2MEeuisbtI7vTXGA _9-gu4V2OEeuisbtI7vTXGA _9-gu4l2OEeuisbtI7vTXGA"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_57W38F2NEeuisbtI7vTXGA" name="Manage Property" coveredBy="_HWY5sV2OEeuisbtI7vTXGA _xLDw4F2WEeuisbtI7vTXGA _xLE_AF2WEeuisbtI7vTXGA _-JGUoF2WEeuisbtI7vTXGA _-JG7sF2WEeuisbtI7vTXGA"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_BMLaMF2OEeuisbtI7vTXGA" name="Edit Profile" coveredBy="_PjKG0F2OEeuisbtI7vTXGA _SiRNMF2XEeuisbtI7vTXGA _SiR0QF2XEeuisbtI7vTXGA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ZBRucF2LEeuisbtI7vTXGA" name="Message3SendEvent" covered="_OKw34F2LEeuisbtI7vTXGA" message="_ZBRHYF2LEeuisbtI7vTXGA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ZBRucV2LEeuisbtI7vTXGA" name="Message3ReceiveEvent" covered="_RHdSgF2LEeuisbtI7vTXGA" message="_ZBRHYF2LEeuisbtI7vTXGA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_-SapsF2LEeuisbtI7vTXGA" name="Message7SendEvent" covered="_RHdSgF2LEeuisbtI7vTXGA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_-SbQwF2LEeuisbtI7vTXGA" name="Message7ReceiveEvent" covered="_l9tIoF2LEeuisbtI7vTXGA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_QzoiIF2MEeuisbtI7vTXGA" name="Message9SendEvent" covered="_RHdSgF2LEeuisbtI7vTXGA" message="_QznUAF2MEeuisbtI7vTXGA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_QzoiIV2MEeuisbtI7vTXGA" name="Message9ReceiveEvent" covered="_l9tIoF2LEeuisbtI7vTXGA" message="_QznUAF2MEeuisbtI7vTXGA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_HWY5sF2OEeuisbtI7vTXGA" name="Message14SendEvent" covered="_RHdSgF2LEeuisbtI7vTXGA" message="_HWXrkF2OEeuisbtI7vTXGA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_HWY5sV2OEeuisbtI7vTXGA" name="Message14ReceiveEvent" covered="_57W38F2NEeuisbtI7vTXGA" message="_HWXrkF2OEeuisbtI7vTXGA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_PjJfwF2OEeuisbtI7vTXGA" name="Message17SendEvent" covered="_RHdSgF2LEeuisbtI7vTXGA" message="_PjIRoF2OEeuisbtI7vTXGA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_PjKG0F2OEeuisbtI7vTXGA" name="Message17ReceiveEvent" covered="_BMLaMF2OEeuisbtI7vTXGA" message="_PjIRoF2OEeuisbtI7vTXGA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_9-gu4V2OEeuisbtI7vTXGA" name="Message20SendEvent" covered="_l9tIoF2LEeuisbtI7vTXGA" message="_9-gu4F2OEeuisbtI7vTXGA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_9-gu4l2OEeuisbtI7vTXGA" name="Message20ReceiveEvent" covered="_l9tIoF2LEeuisbtI7vTXGA" message="_9-gu4F2OEeuisbtI7vTXGA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_xLDw4F2WEeuisbtI7vTXGA" name="Message23SendEvent" covered="_57W38F2NEeuisbtI7vTXGA" message="_xLCiwF2WEeuisbtI7vTXGA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_xLE_AF2WEeuisbtI7vTXGA" name="Message23ReceiveEvent" covered="_57W38F2NEeuisbtI7vTXGA" message="_xLCiwF2WEeuisbtI7vTXGA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_-JGUoF2WEeuisbtI7vTXGA" name="Message26SendEvent" covered="_57W38F2NEeuisbtI7vTXGA" message="_-JD4YF2WEeuisbtI7vTXGA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_-JG7sF2WEeuisbtI7vTXGA" name="Message26ReceiveEvent" covered="_57W38F2NEeuisbtI7vTXGA" message="_-JD4YF2WEeuisbtI7vTXGA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_SiRNMF2XEeuisbtI7vTXGA" name="Message29SendEvent" covered="_BMLaMF2OEeuisbtI7vTXGA" message="_SiPYAF2XEeuisbtI7vTXGA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_SiR0QF2XEeuisbtI7vTXGA" name="Message29ReceiveEvent" covered="_BMLaMF2OEeuisbtI7vTXGA" message="_SiPYAF2XEeuisbtI7vTXGA"/>
+    <message xmi:type="uml:Message" xmi:id="_ZBRHYF2LEeuisbtI7vTXGA" name="1:LoginSuccesful" messageSort="asynchCall" receiveEvent="_ZBRucV2LEeuisbtI7vTXGA" sendEvent="_ZBRucF2LEeuisbtI7vTXGA"/>
+    <message xmi:type="uml:Message" xmi:id="_QznUAF2MEeuisbtI7vTXGA" name="1.1:AddProperty" messageSort="asynchCall" receiveEvent="_QzoiIV2MEeuisbtI7vTXGA" sendEvent="_QzoiIF2MEeuisbtI7vTXGA"/>
+    <message xmi:type="uml:Message" xmi:id="_HWXrkF2OEeuisbtI7vTXGA" name="1.2:ManagePropertyDetails" messageSort="asynchCall" receiveEvent="_HWY5sV2OEeuisbtI7vTXGA" sendEvent="_HWY5sF2OEeuisbtI7vTXGA"/>
+    <message xmi:type="uml:Message" xmi:id="_PjIRoF2OEeuisbtI7vTXGA" name="1.3:EditProfileDetails" messageSort="asynchCall" receiveEvent="_PjKG0F2OEeuisbtI7vTXGA" sendEvent="_PjJfwF2OEeuisbtI7vTXGA"/>
+    <message xmi:type="uml:Message" xmi:id="_9-gu4F2OEeuisbtI7vTXGA" name="1.1.1:AddDetails" messageSort="asynchCall" receiveEvent="_9-gu4l2OEeuisbtI7vTXGA" sendEvent="_9-gu4V2OEeuisbtI7vTXGA"/>
+    <message xmi:type="uml:Message" xmi:id="_xLCiwF2WEeuisbtI7vTXGA" name="1.2.1:EditProperty" messageSort="asynchCall" receiveEvent="_xLE_AF2WEeuisbtI7vTXGA" sendEvent="_xLDw4F2WEeuisbtI7vTXGA"/>
+    <message xmi:type="uml:Message" xmi:id="_-JD4YF2WEeuisbtI7vTXGA" name="1.2.2:RemoveProperty" messageSort="asynchCall" receiveEvent="_-JG7sF2WEeuisbtI7vTXGA" sendEvent="_-JGUoF2WEeuisbtI7vTXGA"/>
+    <message xmi:type="uml:Message" xmi:id="_SiPYAF2XEeuisbtI7vTXGA" name="1.3.1:EditNamePassword" messageSort="asynchCall" receiveEvent="_SiR0QF2XEeuisbtI7vTXGA" sendEvent="_SiRNMF2XEeuisbtI7vTXGA"/>
+  </packagedElement>
+  <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_NsAX8F2OEeuisbtI7vTXGA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_NsA_AF2OEeuisbtI7vTXGA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>
+    </eAnnotations>
+    <appliedProfile xmi:type="uml:Profile" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#ActionLanguage"/>
+  </profileApplication>
+</uml:Model>
